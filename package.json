@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+  "build": "tsc",
+  "watch": "tsc --watch"
+}
+
+}

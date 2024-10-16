@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.label {
+    @apply flex flex-col gap-2 items-center
+}
+.input {
+    @apply border-0 ring-1 ring-inset ring-gray-300 rounded-md focus:ring-2 focus:ring-inset focus:ring-indigo-600 py-1.5 pl-5 pr-10 lg:pl-3 lg:pr-8
+}
+
+.btn {
+    @apply transition delay-200 hover:scale-110 translate-x-3 duration-300 
+}
