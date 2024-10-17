@@ -1,10 +1,10 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
   },
   "scripts": {
-  "build": "tsc",
-  "watch": "tsc --watch"
-}
-
+    "build": "tsc",
+    "watch": "tsc --watch"
+  }
 }
