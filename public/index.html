@@ -17,24 +17,24 @@
     <main class="bg-white rounded-lg w-5/6 mx-auto mt-24  mb-4">
       <form class="form-container flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row gap-4 justify-center mx-auto py-28 sm:max-w-full ">
         <div class="label">
-          <label>Type:</label>
-          <select id="type" class="ring-1 ring-inset ring-gray-300 rounded-md focus:ring-2 focus:ring-inset focus:ring-indigo-600 py-1.5 pl-[4.7rem] pr-[4.7rem]">
+          <label for="type">Type:</label>
+          <select id="type" name="type" class="ring-1 ring-inset ring-gray-300 rounded-md focus:ring-2 focus:ring-inset focus:ring-indigo-600 py-1.5 pl-[4.7rem] pr-[4.7rem]">
             <option value="invoice">Invoice</option>
             <option value="payment">Payment</option>
             <option value="credit">Credit</option>
           </select>
         </div>
         <div class="label ">
-          <label>To / From:</label>
-          <input type="text" id="tofrom" class="input" />
+          <label for="tofrom">To / From:</label>
+          <input type="text" id="tofrom" name="tofrom" class="input" />
         </div>
         <div class="label">
-          <label>Details:</label>
-          <input type="text" id="details" class="input" />
+          <label for="details">Details:</label>
+          <input type="text" id="details" name="details" class="input" />
         </div>
         <div class="label">
-          <label>Amount (N):</label>
-          <input type="number" id="amount" class="input" />
+          <label for="amount">Amount (N):</label>
+          <input type="number" id="amount" ame="amount" class="input" />
         </div>
         <div class="flex justify-center md:items-end md:col-span-2 md:mt-9">
           <button
@@ -45,7 +45,7 @@
         </div>
       </form>
       <!-- <a href="https://github.com/chrisbanya" class="place-items-center">&copy; chrisbanya</a> -->
-        <span><img height="100px" width="150px" src="./logo/logo-no-background.png" class="mx-auto" /></span>
+        <span><img height="100px" width="150px" src="./logo/logo-no-background.png" alt="logo" class="mx-auto" /></span>
     </main>
     <section class="bg-white rounded-lg w-5/6 mx-auto">
       <div class="mt-3">
